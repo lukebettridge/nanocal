@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8446B2825DAAB4300E075A5 /* ComplicationTemplateModularLargeColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8446B2725DAAB4300E075A5 /* ComplicationTemplateModularLargeColumns.swift */; };
+		B8446B3925DAAC3400E075A5 /* ComplicationTemplateModularSmallRingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8446B3825DAAC3400E075A5 /* ComplicationTemplateModularSmallRingText.swift */; };
+		B8446B4425DAACFC00E075A5 /* ComplicationTemplateUtilitarianLargeFlat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8446B4325DAACFC00E075A5 /* ComplicationTemplateUtilitarianLargeFlat.swift */; };
+		B8446B4925DAADD200E075A5 /* getIntervalEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8446B4825DAADD200E075A5 /* getIntervalEvents.swift */; };
+		B8446B5225DAB04200E075A5 /* getEventTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8446B5125DAB04200E075A5 /* getEventTimeline.swift */; };
+		B8446B5A25DAB06D00E075A5 /* makeTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8446B5925DAB06D00E075A5 /* makeTemplate.swift */; };
+		B863FECC25D7D8E000B03A65 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863FECB25D7D8E000B03A65 /* EventView.swift */; };
+		B863FED025D7DA0700B03A65 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863FECF25D7DA0700B03A65 /* DateView.swift */; };
+		B863FED325D7DA6C00B03A65 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B863FED225D7DA6C00B03A65 /* Date.swift */; };
 		B86CD01E25D7CE470023599A /* NanoCal WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B86CD01D25D7CE470023599A /* NanoCal WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B86CD02325D7CE480023599A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86CD02225D7CE480023599A /* Assets.xcassets */; };
 		B86CD02A25D7CE480023599A /* NanoCal WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B86CD02925D7CE480023599A /* NanoCal WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -17,6 +26,18 @@
 		B86CD03725D7CE480023599A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86CD03625D7CE480023599A /* ComplicationController.swift */; };
 		B86CD03925D7CE490023599A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86CD03825D7CE490023599A /* Assets.xcassets */; };
 		B86CD03C25D7CE490023599A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86CD03B25D7CE490023599A /* Preview Assets.xcassets */; };
+		B86CD05425D7CFEE0023599A /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86CD05325D7CFEE0023599A /* EventStore.swift */; };
+		B8CEB56E25D80C07008EE7E5 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB56D25D80C07008EE7E5 /* EventRow.swift */; };
+		B8CEB57025D80EE4008EE7E5 /* EventEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB56F25D80EE4008EE7E5 /* EventEmpty.swift */; };
+		B8CEB57225D810B2008EE7E5 /* EventTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB57125D810B2008EE7E5 /* EventTimer.swift */; };
+		B8CEB57725D8338C008EE7E5 /* ComplicationViewRectangular.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB57625D8338C008EE7E5 /* ComplicationViewRectangular.swift */; };
+		B8CEB57B25D84BDB008EE7E5 /* ComplicationTimerLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB57A25D84BDB008EE7E5 /* ComplicationTimerLarge.swift */; };
+		B8CEB57D25D84C3B008EE7E5 /* ComplicationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB57C25D84C3B008EE7E5 /* ComplicationEvent.swift */; };
+		B8CEB58125D937EA008EE7E5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB58025D937EA008EE7E5 /* ExtensionDelegate.swift */; };
+		B8CEB58325D93C1C008EE7E5 /* EKEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB58225D93C1C008EE7E5 /* EKEvent.swift */; };
+		B8CEB58525D94309008EE7E5 /* ComplicationViewCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB58425D94309008EE7E5 /* ComplicationViewCircular.swift */; };
+		B8CEB58825D95F89008EE7E5 /* ComplicationTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB58725D95F89008EE7E5 /* ComplicationTimer.swift */; };
+		B8CEB58B25D96004008EE7E5 /* ComplicationTimerSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CEB58A25D96004008EE7E5 /* ComplicationTimerSmall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +83,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B82A193125D99D02005B4EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8446B2725DAAB4300E075A5 /* ComplicationTemplateModularLargeColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationTemplateModularLargeColumns.swift; sourceTree = "<group>"; };
+		B8446B3825DAAC3400E075A5 /* ComplicationTemplateModularSmallRingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationTemplateModularSmallRingText.swift; sourceTree = "<group>"; };
+		B8446B4325DAACFC00E075A5 /* ComplicationTemplateUtilitarianLargeFlat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationTemplateUtilitarianLargeFlat.swift; sourceTree = "<group>"; };
+		B8446B4825DAADD200E075A5 /* getIntervalEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getIntervalEvents.swift; sourceTree = "<group>"; };
+		B8446B5125DAB04200E075A5 /* getEventTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getEventTimeline.swift; sourceTree = "<group>"; };
+		B8446B5925DAB06D00E075A5 /* makeTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeTemplate.swift; sourceTree = "<group>"; };
+		B863FECB25D7D8E000B03A65 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		B863FECF25D7DA0700B03A65 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		B863FED225D7DA6C00B03A65 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		B86CD01925D7CE470023599A /* NanoCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86CD01D25D7CE470023599A /* NanoCal WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NanoCal WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86CD02225D7CE480023599A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +107,18 @@
 		B86CD03B25D7CE490023599A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B86CD03D25D7CE490023599A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B86CD03E25D7CE490023599A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B86CD05325D7CFEE0023599A /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventStore.swift; path = "../../../nanocal/NanoCal WatchKit Extension/Helpers/EventStore.swift"; sourceTree = "<group>"; };
+		B8CEB56D25D80C07008EE7E5 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		B8CEB56F25D80EE4008EE7E5 /* EventEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEmpty.swift; sourceTree = "<group>"; };
+		B8CEB57125D810B2008EE7E5 /* EventTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTimer.swift; sourceTree = "<group>"; };
+		B8CEB57625D8338C008EE7E5 /* ComplicationViewRectangular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationViewRectangular.swift; sourceTree = "<group>"; };
+		B8CEB57A25D84BDB008EE7E5 /* ComplicationTimerLarge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationTimerLarge.swift; sourceTree = "<group>"; };
+		B8CEB57C25D84C3B008EE7E5 /* ComplicationEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationEvent.swift; sourceTree = "<group>"; };
+		B8CEB58025D937EA008EE7E5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B8CEB58225D93C1C008EE7E5 /* EKEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EKEvent.swift; sourceTree = "<group>"; };
+		B8CEB58425D94309008EE7E5 /* ComplicationViewCircular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationViewCircular.swift; sourceTree = "<group>"; };
+		B8CEB58725D95F89008EE7E5 /* ComplicationTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationTimer.swift; sourceTree = "<group>"; };
+		B8CEB58A25D96004008EE7E5 /* ComplicationTimerSmall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationTimerSmall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +132,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B82A193025D99CF4005B4EBD /* NanoCal */ = {
+			isa = PBXGroup;
+			children = (
+				B82A193125D99D02005B4EBD /* Info.plist */,
+			);
+			path = NanoCal;
+			sourceTree = "<group>";
+		};
+		B8446B2625DAAB2A00E075A5 /* ComplicationEvent */ = {
+			isa = PBXGroup;
+			children = (
+				B8CEB57C25D84C3B008EE7E5 /* ComplicationEvent.swift */,
+			);
+			path = ComplicationEvent;
+			sourceTree = "<group>";
+		};
+		B8446B5025DAB03500E075A5 /* ComplicationController */ = {
+			isa = PBXGroup;
+			children = (
+				B8446B4825DAADD200E075A5 /* getIntervalEvents.swift */,
+				B8446B5125DAB04200E075A5 /* getEventTimeline.swift */,
+				B8446B5925DAB06D00E075A5 /* makeTemplate.swift */,
+			);
+			path = ComplicationController;
+			sourceTree = "<group>";
+		};
+		B863FECA25D7D8D700B03A65 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				B8CEB56F25D80EE4008EE7E5 /* EventEmpty.swift */,
+				B8CEB56D25D80C07008EE7E5 /* EventRow.swift */,
+				B8CEB57125D810B2008EE7E5 /* EventTimer.swift */,
+				B863FECB25D7D8E000B03A65 /* EventView.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		B863FECD25D7D9E600B03A65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B863FECE25D7DA0000B03A65 /* Date */,
+				B863FECA25D7D8D700B03A65 /* Event */,
+				B86CD03025D7CE480023599A /* ContentView.swift */,
+				B86CD03425D7CE480023599A /* NotificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B863FECE25D7DA0000B03A65 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				B863FECF25D7DA0700B03A65 /* DateView.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		B863FED125D7DA6200B03A65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8446B5025DAB03500E075A5 /* ComplicationController */,
+				B863FED225D7DA6C00B03A65 /* Date.swift */,
+				B8CEB58225D93C1C008EE7E5 /* EKEvent.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B86CD01225D7CE470023599A = {
 			isa = PBXGroup;
 			children = (
+				B82A193025D99CF4005B4EBD /* NanoCal */,
 				B86CD02125D7CE470023599A /* NanoCal WatchKit App */,
 				B86CD02D25D7CE480023599A /* NanoCal WatchKit Extension */,
 				B86CD01A25D7CE470023599A /* Products */,
@@ -120,11 +230,14 @@
 		B86CD02D25D7CE480023599A /* NanoCal WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B8CEB57525D8334D008EE7E5 /* Complications */,
+				B863FED125D7DA6200B03A65 /* Extensions */,
+				B86CD05225D7CFB70023599A /* Helpers */,
+				B863FECD25D7D9E600B03A65 /* Views */,
 				B86CD02E25D7CE480023599A /* NanoCalApp.swift */,
-				B86CD03025D7CE480023599A /* ContentView.swift */,
-				B86CD03225D7CE480023599A /* NotificationController.swift */,
-				B86CD03425D7CE480023599A /* NotificationView.swift */,
+				B8CEB58025D937EA008EE7E5 /* ExtensionDelegate.swift */,
 				B86CD03625D7CE480023599A /* ComplicationController.swift */,
+				B86CD03225D7CE480023599A /* NotificationController.swift */,
 				B86CD03825D7CE490023599A /* Assets.xcassets */,
 				B86CD03D25D7CE490023599A /* Info.plist */,
 				B86CD03E25D7CE490023599A /* PushNotificationPayload.apns */,
@@ -139,6 +252,46 @@
 				B86CD03B25D7CE490023599A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B86CD05225D7CFB70023599A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B86CD05325D7CFEE0023599A /* EventStore.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B8CEB57525D8334D008EE7E5 /* Complications */ = {
+			isa = PBXGroup;
+			children = (
+				B8CEB57825D84B68008EE7E5 /* Views */,
+				B8446B2725DAAB4300E075A5 /* ComplicationTemplateModularLargeColumns.swift */,
+				B8446B3825DAAC3400E075A5 /* ComplicationTemplateModularSmallRingText.swift */,
+				B8446B4325DAACFC00E075A5 /* ComplicationTemplateUtilitarianLargeFlat.swift */,
+			);
+			path = Complications;
+			sourceTree = "<group>";
+		};
+		B8CEB57825D84B68008EE7E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8446B2625DAAB2A00E075A5 /* ComplicationEvent */,
+				B8CEB58625D95F65008EE7E5 /* ComplicationTimer */,
+				B8CEB58425D94309008EE7E5 /* ComplicationViewCircular.swift */,
+				B8CEB57625D8338C008EE7E5 /* ComplicationViewRectangular.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8CEB58625D95F65008EE7E5 /* ComplicationTimer */ = {
+			isa = PBXGroup;
+			children = (
+				B8CEB58725D95F89008EE7E5 /* ComplicationTimer.swift */,
+				B8CEB57A25D84BDB008EE7E5 /* ComplicationTimerLarge.swift */,
+				B8CEB58A25D96004008EE7E5 /* ComplicationTimerSmall.swift */,
+			);
+			path = ComplicationTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,10 +421,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86CD03325D7CE480023599A /* NotificationController.swift in Sources */,
+				B8CEB57025D80EE4008EE7E5 /* EventEmpty.swift in Sources */,
+				B8CEB57725D8338C008EE7E5 /* ComplicationViewRectangular.swift in Sources */,
+				B8446B5A25DAB06D00E075A5 /* makeTemplate.swift in Sources */,
+				B8CEB57225D810B2008EE7E5 /* EventTimer.swift in Sources */,
+				B863FECC25D7D8E000B03A65 /* EventView.swift in Sources */,
+				B8446B4925DAADD200E075A5 /* getIntervalEvents.swift in Sources */,
+				B863FED025D7DA0700B03A65 /* DateView.swift in Sources */,
 				B86CD03125D7CE480023599A /* ContentView.swift in Sources */,
+				B8CEB58B25D96004008EE7E5 /* ComplicationTimerSmall.swift in Sources */,
+				B8446B4425DAACFC00E075A5 /* ComplicationTemplateUtilitarianLargeFlat.swift in Sources */,
+				B8CEB57B25D84BDB008EE7E5 /* ComplicationTimerLarge.swift in Sources */,
+				B8446B5225DAB04200E075A5 /* getEventTimeline.swift in Sources */,
+				B8446B3925DAAC3400E075A5 /* ComplicationTemplateModularSmallRingText.swift in Sources */,
+				B86CD05425D7CFEE0023599A /* EventStore.swift in Sources */,
 				B86CD03725D7CE480023599A /* ComplicationController.swift in Sources */,
+				B8CEB58125D937EA008EE7E5 /* ExtensionDelegate.swift in Sources */,
+				B8CEB58825D95F89008EE7E5 /* ComplicationTimer.swift in Sources */,
 				B86CD02F25D7CE480023599A /* NanoCalApp.swift in Sources */,
+				B8CEB58325D93C1C008EE7E5 /* EKEvent.swift in Sources */,
+				B8CEB57D25D84C3B008EE7E5 /* ComplicationEvent.swift in Sources */,
+				B8446B2825DAAB4300E075A5 /* ComplicationTemplateModularLargeColumns.swift in Sources */,
+				B8CEB56E25D80C07008EE7E5 /* EventRow.swift in Sources */,
+				B863FED325D7DA6C00B03A65 /* Date.swift in Sources */,
 				B86CD03525D7CE480023599A /* NotificationView.swift in Sources */,
+				B8CEB58525D94309008EE7E5 /* ComplicationViewCircular.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +584,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"NanoCal WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = GPM4PVH4B9;
 				ENABLE_PREVIEWS = YES;
@@ -419,7 +594,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.NanoCal.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.nanocal.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -434,6 +609,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"NanoCal WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = GPM4PVH4B9;
 				ENABLE_PREVIEWS = YES;
@@ -443,7 +619,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.NanoCal.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.nanocal.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -460,10 +636,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = GPM4PVH4B9;
 				IBSC_MODULE = NanoCal_WatchKit_Extension;
 				INFOPLIST_FILE = "NanoCal WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.NanoCal.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.nanocal.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -480,10 +657,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = GPM4PVH4B9;
 				IBSC_MODULE = NanoCal_WatchKit_Extension;
 				INFOPLIST_FILE = "NanoCal WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.NanoCal.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.nanocal.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -497,10 +675,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = GPM4PVH4B9;
+				INFOPLIST_FILE = NanoCal/Info.plist;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.NanoCal;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.nanocal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -510,10 +689,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = GPM4PVH4B9;
+				INFOPLIST_FILE = NanoCal/Info.plist;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.NanoCal;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.lukebettridge.nanocal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

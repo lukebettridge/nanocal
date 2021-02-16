@@ -6,9 +6,16 @@
 //
 
 import SwiftUI
+import Foundation
 
 @main
 struct NanoCalApp: App {
+    @WKExtensionDelegateAdaptor(ExtensionDelegate.self) var delegate
+    
+    init() {
+        EventStore.authorize() { granted, error in }
+    }
+    
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
